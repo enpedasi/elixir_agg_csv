@@ -24,8 +24,8 @@ namespace CsvAgg
             sw.Start();
             Console.WriteLine("test start");
             wordMap = new ConcurrentDictionary<string, int> { };
-            ProcessRead(readFilePath);
-
+            ProcessReadAsync(readFilePath).Wait();
+            
             Console.WriteLine(wordMap.Count);
 
             lock (wordMap)
@@ -46,7 +46,7 @@ namespace CsvAgg
         }
 
 
-        static public async void ProcessRead(string filePath)
+        static public async Task ProcessReadAsync(string filePath)
         {
 
             if (File.Exists(filePath) == false)
