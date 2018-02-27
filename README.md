@@ -1,6 +1,14 @@
 # ElixirAggCsv
 
-## for Fukuokaex #5 session
+### for Fukuokaex #5 session
+
+## Announcement:
+
+It is pointed out that the results of CSV aggregation of each language are different now. We will revalidate in the Middle of March.
+
+## 告知 :
+CSV集計の結果が各言語で異なるという指摘を受けております、３月中旬以降に再検証の予定です。
+
 
 Elixr Flow CSV Aggregation test.
 
@@ -12,7 +20,4 @@ iex(1) > ElixirFlow.run("test_3_000_000.csv")
 - cs/program.cs  c# program
 - js/csvagg.js   node.js program
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_agg_csv](https://hexdocs.pm/elixir_agg_csv).
 
