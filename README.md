@@ -2,14 +2,7 @@
 
 ### for Fukuokaex #5 session
 
-## Announcement:
-
-- It is pointed out that the results of CSV aggregation of each language are different now. We will revalidate in the Middle of March.
-- The C # program now runs on Linux.
-
-## 告知 :
-- CSV集計の結果が各言語で異なるという指摘を受けております、３月中旬以降に再検証の予定です。
-- C#のプログラムはLinuxで動作するようになりました。
+[related slides](https://www.slideshare.net/YoshiiroUeno/pr-elixir-go-c-x-scala)
 
 Elixr Flow CSV Aggregation test.
 
